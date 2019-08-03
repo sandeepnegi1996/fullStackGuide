@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#parent-right
+{
+    height: 200px;
+    width: 200px;
+    border: 5px solid salmon;
+    background: green;
+    color: white;
+    position: absolute;
+    animation-name: anime;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+#bottom-right
+{
+    background: grey;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#link-div
+{
+    background: yellowgreen;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    width: 300px;
+}
+a:hover{
+    background: greenyellow;
+}
+#paragraph-div{
+    position: absolute;
+    right: 100px;
+    margin: 100px auto;
+}
+p{
+    box-shadow: 0 0 10px red;
+}
+@keyframes anime
+{
+    0% {
+        background-color: aqua;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: gainsboro;
+        left: 300;
+        top: 0;
+    }
+    75% {
+        background-color: blue;
+        left: 300;
+        top: 300;
+    }
+    100% {
+        background-color: greenyellow;
+        left: 0;
+        top: 300 ;
+    }
+}
