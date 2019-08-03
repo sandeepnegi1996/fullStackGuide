@@ -31,5 +31,75 @@
     </ol>
     <hr>
     <hr>
+
+    <h1>heading 1</h1>
+    <div id="reg-form">
+
+        <form action="" method="GET">
+
+            <div>
+
+                <label for="firstname"> First Name </label>
+                <input type="text" name="firstname" placeholder="enter first name" required>
+
+                <br>
+                <br>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" placeholder="enter last name" required>
+
+            </div>
+            <hr>
+
+            <div>
+                <label for="email"> Email </label>
+                <input type="email" name="email" placeholder="xyz@gmail.com" required>
+
+                <br>
+
+                <label for="password"> Password</label>
+                <input type="password" name="password" >
+            </div>
+
+            <div>
+
+                <label for="gender"> Male</label>
+                <input type="radio" name="gender" id="male" value="choice1">
+
+                <label for="gender"> Female</label>
+                <input type="radio" name="gender" id="female" value="choice2">
+                
+                <label for="gender"> Others</label>
+                <input type="radio" name="gender" id="other" value="choice3">
+                
+            </div>
+
+            <br>
+            <br>
+
+            <div id="selectoption">
+
+                <label for="Month">Birthday</label>
+                <select name="Month" id="">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+
+
+
+                </select>
+            </div>
+
+            <div>
+                <label for="terms">checkbox if u agree</label>
+                <input type="checkbox" name="terms" id="">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
