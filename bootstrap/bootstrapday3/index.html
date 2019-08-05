@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>basic styling</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>this is day 3 bootstrap rockin</h1>
+    <div class="container">
+
+        <div class="jumbotron">
+            <p>this is inside jumbotron this will be bigger</p>
+        </div>
+
+        <p>this is outside the jumbotron</p>
+        
+        <div class="alert alert-danger">
+           <strong>stop</strong> this is danger
+        </div>
+
+        <div class="alert alert-danger alert-dismissible fade in">
+            this will be closed by the x symbol
+
+        </div>
+        <div class="alert alert-danger alert-dismissible fade in">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg">click me </button>
+            <button type="button" class="btn btn-danger btn-sm">click me </button>
+            <button type="button" class="btn btn-info btn-xs">click me </button>
+            <button type="button" class="btn btn-link">click me </button>
+            <button type="button" class="btn btn-warning">click me </button>
+
+            <br>
+            <span class="label label-default" > default</span>
+            <span class="label label-primary" > primary</span>
+            <span class="label label-info" > info</span>
+        </div>
+
+            <br>
+            <br>
+        <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40% Complete (success)
+                </div>
+        </div>
+
+        <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  40%(ONGOING)
+                </div>
+              </div>
+
+        
+        <div class="pagination pagination-lg">
+            <li> <a href="http://www.google.com">1</a></li>
+            <li><a href="index.html">2</a></li>
+        </div>
+
+        <!--
+            now we are going to create a dropdown menu
+        -->
+        <div class="dropdown">
+            <button type="button" class="btn  btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">
+                click for menu
+                <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="www.facebook.com">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="www.facebook.com">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="www.facebook.com">CSS</a></li>
+            </ul>
+        </div>
+        <br><br><br>
+    </div>  
+
+    
+</body>
+</html>

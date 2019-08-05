@@ -1,0 +1,17 @@
+.jumbotron
+{
+    background: greenyellow;
+    border: 10px solid grey;
+}
+.btn
+{
+    border: 1px solid black;
+}
+.btn-primary{
+    border: 5px solid greenyellow;
+}
+.pagination
+{
+   border: 2px solid black;
+   margin-left: 90%;
+}
